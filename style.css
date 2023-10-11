@@ -32,8 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-     /*padding: 32px;*/
-    gap: 8px;
+    gap: 200px;
+    padding: 70px;
     flex: 1;
 }
 
@@ -45,6 +45,7 @@ body {
 
 .hero-subtext {
     color: #e5e7eb;
+    padding: 8px;
 }
 
 .logo {
@@ -60,13 +61,81 @@ button {
     border-radius: 8px;
     padding: 8px 24px;
 }
-/*
-.quote-container {
+
+.text-above-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.box {
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.image {
+    display: flex;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.signup-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-*/
+
+.signup-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #3882F6;
+    height: 100px;
+    width: 900px;
+    margin: 50px;
+}
+
+.signup-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-text {
+    color: #E5E7EB;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: 700;
+    border: 5px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
 .quote {
   
     display: flex;
