@@ -19,9 +19,22 @@ body {
     margin: 0;
 }
 
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 8px 16px;
+}
+
 .hero-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+     /*padding: 32px;*/
+    gap: 8px;
+    flex: 1;
 }
 
 .hero-text {
@@ -47,11 +60,20 @@ button {
     border-radius: 8px;
     padding: 8px 24px;
 }
-
-.quote {
+/*
+.quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+*/
+.quote {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    /*width: 800px; */
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: oblique;
